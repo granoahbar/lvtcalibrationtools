@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "LVT Calibration Tools",
+    "version": "1.0",
+    "description": "Optimizing the calibration process",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
+  
