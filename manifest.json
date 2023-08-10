@@ -1,19 +1,27 @@
-  {
-    "manifest_version": 3,
-    "version": "1.0",
-    "description": "Optimizing the calibration process",
-    "permissions": ["tabs"],
-    "background": {
-      "service_worker": "content_scripts.js"
-    },
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-      }
+{
+  "manifest_version": 3,
+  "name": "lvt calibrartion tools",
+  "version": "1.0",
+  "permissions": [
+    "activeTab", 
+    "tabs", 
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://sp.liveviewtech.com/*"
+],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
     }
   }
+}
   
   
