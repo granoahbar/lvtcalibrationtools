@@ -1,23 +1,23 @@
 #openCamerasButton, #insertCrosshairsButton {
-    background-color: #1eaaa3;
-    color: #ffffff;
-    border: none;
-    padding: 5px 10px;
-    font-size: 12px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    width: 85%;
-  }
-  
-  #openCamerasButton:hover, #insertCrosshairsButton:hover {
-    background-color: #8cc9c6;
-    transform: scale(1.05);
-  }
+  background-color: #1eaaa3;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 85%;
+}
 
-  .heading {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+#openCamerasButton:hover, #insertCrosshairsButton:hover {
+  background-color: #8cc9c6;
+  transform: scale(1.05);
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
