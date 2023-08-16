@@ -7,3 +7,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       sendResponse({ message: "Tabs opened" });
     }
   })
+  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    if (request.action === "insertCrosshairs") {
+      sendResponse({ message: "Crosshairs Inserted" });
+    }
+  })

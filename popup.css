@@ -1,4 +1,4 @@
-#openCamerasButton {
+#openCamerasButton, #insertCrosshairsButton {
     background-color: #1eaaa3;
     color: #ffffff;
     border: none;
@@ -10,7 +10,7 @@
     width: 85%;
   }
   
-  #openCamerasButton:hover {
+  #openCamerasButton:hover, #insertCrosshairsButton:hover {
     background-color: #8cc9c6;
     transform: scale(1.05);
   }
